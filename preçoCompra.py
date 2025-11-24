@@ -11,7 +11,7 @@ while True:
     precoFIN = preco 
 
     if itens == 0:
-        print(f"{total}")
+        print(f"R${total}")
         break
     else:
         True
