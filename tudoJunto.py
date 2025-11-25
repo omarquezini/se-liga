@@ -7,7 +7,7 @@ print ("[]   por: O_MARQUEZINI   []")
 print ("[]                       []")
 print ("[]=======================[]")
 
-entrada = int(input("Oque você quer fazer (1 para SIM) (2 para NÃO): "))
+entrada = int(input("Oque você quer fazer (1 DESCUBRA A SUA IDADE) (2 DESCUBRA O QUANTO VOCÊ GASTA COM COMPRAS): "))
 
 if entrada == 1:
         print("OK.")
@@ -16,20 +16,21 @@ if entrada == 1:
         print("=== QUAL A SUA IDADE? ===")
         print("")
 
-        anoAtual = int(input("qual ano que você está: "))
+        anoAtual = int(input("qual ano que você está?: "))
 
-        niver = int(input("qual ano você naceu: "))
+        niver = int(input("qual ano você naceu?: "))
 
         idade = (anoAtual - niver)
 
+        print(f"sua idade é {idade}")
+
 elif entrada == 2:
-    print("infeismente você não tem escolha.")
 
     print("")
     print("=== QUAL O PRESSO DO SEUS ITENS? ===")
     print("")
 
-    itens = int(input("qual o numero de itens: "))
+    itens = int(input("qual o numero de itens?: "))
 
     total = 0
 
@@ -61,30 +62,6 @@ else:
      print("")
      exit()
    
-
-print("")
-print("=== QUAL O PRESSO DO SEUS ITENS? ===")
-print("")
-
-itens = int(input("qual o numero de itens: "))
-
-total = 0
-
-
-while True:
-
-    preco = float(input("digite o preço do seu iten: "))
-    total += preco
-    itens -= 1
-
-    precoFIN = preco 
-
-    if itens == 0:
-        print(f"R${total}")
-        break
-    else:
-        True
-
 print("")
 print("=== QUAL O SEU FINAL??? ===")
 print("")
