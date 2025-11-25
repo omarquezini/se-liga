@@ -9,10 +9,22 @@ print ("[]=======================[]")
 
 entrada = int(input("você quer sair? (1 para SIM) (2 para NÃO): "))
 
-if entrada == 1:
+if entrada == 2:
         print("OK.")
-else:
+elif entrada == 1:
      print("infeismente você não tem escolha.")
+else:
+     print("numero incorreto ** ATIVAR ALTO DESTRUIÇÂO **")
+     print("")
+     print("3...")
+     print("")
+     print("")
+     print("2..")
+     print("")
+     print("")
+     print("1.")
+     print("")
+     exit()
    
 print("")
 print("=== QUAL A SUA IDADE? ===")
@@ -26,15 +38,14 @@ idade = (anoAtual - niver)
 
 print(f"sua idade aproximada é: {idade}")
 
-
+print("")
+print("=== QUAL O PRESSO DO SEUS ITENS? ===")
+print("")
 
 itens = int(input("qual o numero de itens: "))
 
 total = 0
 
-print("")
-print("=== QUAL O PRESSO DO SEUS ITENS? ===")
-print("")
 
 while True:
 
